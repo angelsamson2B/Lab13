@@ -3,7 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class StudentInformationApp {
+public class Samson_Act1 {
     private JFrame frame;
     private JTextField firstNameTextField;
     private JTextField lastNameTextField;
@@ -11,7 +11,7 @@ public class StudentInformationApp {
     private JTextField courseTextField;
     private JTextField yearTextField;
 
-    public StudentInformationApp() {
+    public Samson_Act1() {
         frame = new JFrame("Student Information App");
         frame.setLayout(new GridLayout(0, 2));
         
@@ -82,7 +82,7 @@ public class StudentInformationApp {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                new StudentInformationApp();
+                new Samson_Act1();
             }
         });
     }

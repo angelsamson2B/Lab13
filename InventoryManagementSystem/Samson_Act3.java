@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
-public class InventoryManagementSystem extends JFrame {
+public class Samson_Act3 extends JFrame {
     private Map<String, Integer> inventory;
 
     private JTextField itemNameTextField;
@@ -16,7 +16,7 @@ public class InventoryManagementSystem extends JFrame {
     private JButton updateQuantityButton;
     private JTextArea inventoryListTextArea;
 
-    public InventoryManagementSystem() {
+    public Samson_Act3() {
         setTitle("Inventory Management System");
         setLayout(new BorderLayout());
 
@@ -81,7 +81,7 @@ public class InventoryManagementSystem extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                new InventoryManagementSystem();
+                new Samson_Act3();
             }
         });
     }

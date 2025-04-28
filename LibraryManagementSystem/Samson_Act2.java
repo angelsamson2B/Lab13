@@ -6,14 +6,14 @@ import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LibraryManagementSystem extends JFrame {
+public class Samson_Act2 extends JFrame {
     private Map<String, Boolean> books;
     private JTextField bookTitleTextField;
     private JButton addBookButton;
     private JButton checkoutBookButton;
     private JTextArea bookListTextArea;
 
-    public LibraryManagementSystem() {
+    public Samson_Act2() {
         setTitle("Library Management System");
         setLayout(new BorderLayout());
         books = new HashMap<>();
@@ -65,6 +65,6 @@ public class LibraryManagementSystem extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(LibraryManagementSystem::new);
+        SwingUtilities.invokeLater(Samson_Act2::new);
     }
 }
